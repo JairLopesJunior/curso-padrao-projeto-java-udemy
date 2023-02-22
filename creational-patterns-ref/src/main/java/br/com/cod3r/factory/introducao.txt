@@ -1,0 +1,43 @@
+AULA FACTORY METHOD
+
+Chegou a hora de conhecer o nosso primeiro padrão, e um dos mais famosos!
+
+PROBLEMAS:
+
+- Como posso escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface?
+
+- Como deixar o meu código desacoplado das classes concretas?
+
+SOLUÇÃO:
+
+- Extrair a lógica de criação dos objetos para um factory method.
+
+- Invocar o factory method para receber uma instância qualquer que implemente
+uma determinada interface.
+
+
+
+"Um padrão que define uma interface para criar um objeto, mas permite as classes decidirem qual
+classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses". GOF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
