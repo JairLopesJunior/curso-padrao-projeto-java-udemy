@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car = CarSimpleFactory.createCar("Gol");
+        Car car = CarSimpleFactory.createCar("Golf");
 
         System.out.println(car);
     }

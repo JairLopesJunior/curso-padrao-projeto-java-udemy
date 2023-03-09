@@ -1,0 +1,26 @@
+AULA ABSTRACT FACTORY:
+
+Esse sim é um cara de familia!!
+
+PROBLEMAS:
+
+- Como posso escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface?
+
+- Como garantir que um conjunto de objetos relacionados (ou dependentes) possam
+ser criados mantendo o contexto único?
+
+SOLUÇÃO:
+
+- Extrair a lógica de criação dos objetos para um abstract factory.
+
+- Criar uma implementação do abstract factory para cada contexto, garantindo que todos
+os objetos criados estejam relacionados.
+
+
+"Prover uma interface para criar familias de objetos
+relacionados ou dependentes sem especificar suas
+classes concretas" GOF
+
+
+Factory method e abstract factory a diferença é que com abstract factory a gente
+trabalha com mais de um objeto que pertence a mesma familia (Para juntar esses 2 ou mais objetos).
